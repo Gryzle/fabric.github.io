@@ -203,6 +203,9 @@ a:hover{text-decoration: none; cursor:pointer;}
 /* = Bric adjustment margins
 -------------------------------------------------------------- */
 
+.mg-clear{
+	margin:0;
+}
 .mg-sm{
 	margin-top:10px;
 	margin-bottom:5px;
@@ -353,6 +356,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .p-style{
 	width:100%;
 	font-size:26px;
+}
+.p-bloc-3-style{
+	font-size:10px;
 }
 
 /* = Colour
