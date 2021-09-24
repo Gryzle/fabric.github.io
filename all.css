@@ -100,9 +100,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 	left:0;
 	right:0;
 }
-.texture-fabric::before{
-	background: url("img/texture-fabric.png");
-}
 .texture-darken::before{
 	background: rgba(0,0,0,0.5);
 }
@@ -264,6 +261,24 @@ button{
 	border-radius:0 0 29px 29px;
 }
 
+/* = Dividers
+-------------------------------------------------------------- */
+.divider-h{
+	padding:20px 0;
+	width:100%;
+	display:inline-block;
+}
+.divider-h span{
+	display: block;
+	border-top:1px solid transparent;
+}
+.divider-half{
+	width: 50%;
+	margin: 0 auto;
+}
+.dropdown-menu .divider-h,.dropdown-menu .divider-half{
+	padding:0;
+}
 
 
 
@@ -323,13 +338,15 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .img-bloc-2-style{
 	width:128px;
+	border-radius:0px 0px 0px 0px;
 }
 .img-7-style{
 	width:128px;
-	border-radius:29px 29px 29px 29px;
+	border-radius:65px 65px 65px 65px;
 }
 .img-8-style{
 	width:128px;
+	border-radius:65px 65px 65px 65px;
 }
 .img-9-style{
 	width:128px;
@@ -337,6 +354,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .img-10-style{
 	width:128px;
+	border-radius:65px 65px 65px 65px;
 }
 .img-11-style{
 	width:128px;
